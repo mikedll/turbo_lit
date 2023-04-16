@@ -1,9 +1,8 @@
 
 import {LitElement, html} from 'lit';
-import {customElement, property} from 'lit/decorators.js';
+import {customElement} from 'lit/decorators.js';
 
-
-@customElement("hello-mike")
+@customElement('simple-greeting')
 export class HelloMike extends LitElement {
   render() {
     return html`
