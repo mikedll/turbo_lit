@@ -2,6 +2,8 @@
 
 import MyApp from './myApp';
 
+import './hello-mike';
+
 const a = new MyApp();
 a.run();
 

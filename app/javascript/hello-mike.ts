@@ -2,11 +2,13 @@
 import {LitElement, html} from 'lit';
 import {customElement} from 'lit/decorators.js';
 
-@customElement('simple-greeting')
+@customElement('hello-mike')
 export class HelloMike extends LitElement {
   render() {
     return html`
-      This is the element.
+      <div>
+        This is the Mike element.
+      </div>
     `;
   }
 }
